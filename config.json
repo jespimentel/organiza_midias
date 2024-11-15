@@ -1,0 +1,20 @@
+{
+    "diretorio_a_examinar_1": "/Users/pimentel/Documents/projetos/organiza_fotos/teste",
+    "diretorio_destino_repetidas": "/Users/pimentel/Documents/projetos/organiza_fotos/repetidos",
+    "diretorio_a_examinar_2": "/Users/pimentel/Documents/projetos/organiza_fotos/teste_2",
+    "diretorio_destino_novas": "/Users/pimentel/Documents/projetos/organiza_fotos/novas",
+    "extensoes": [
+        "HEIC",
+        "heic",
+        "MOV",
+        "mov",
+        "JPG",
+        "jpg",
+        "jpeg",
+        "PNG",
+        "png",
+        "MP4",
+        "mp4"
+    ],
+    "log_file": "processamento.log"
+}
