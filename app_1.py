@@ -5,7 +5,7 @@ import logging
 from utils import buscar_arquivos, extrai_hash, configurar_logs
 
 # Carregando configurações
-with open("config.json") as config_file:
+with open("config.json", encoding="utf-8") as config_file:
     config = json.load(config_file)
 
 configurar_logs(config["log_file"])
@@ -30,5 +30,5 @@ for arquivo in arquivos:
     else:
         arquivos_unicos[hash] = arquivo
 
-with open("arquivos_unicos.json", "w") as file:
+with open(config["arquivo_json"], "w") as file:
     json.dump(arquivos_unicos, file, indent=4)

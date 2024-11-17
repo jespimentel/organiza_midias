@@ -5,14 +5,14 @@ import logging
 from utils import buscar_arquivos, extrai_hash, configurar_logs
 
 # Carregando configurações
-with open("config.json") as config_file:
+with open("config.json", encoding="utf-8") as config_file:
     config = json.load(config_file)
 
 configurar_logs(config["log_file"])
 
 contador = 0
 
-with open("arquivos_unicos.json") as file:
+with open(config["arquivo_json"]) as file:
     arquivos_unicos = json.load(file)
 
 arquivos = buscar_arquivos(config["diretorio_a_examinar_2"], config["extensoes"])

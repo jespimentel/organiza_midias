@@ -1,21 +1,23 @@
 {
-    "diretorio_a_examinar_1": "/Users/pimentel/Documents/projetos/organiza_fotos/teste",
-    "diretorio_destino_repetidas": "/Users/pimentel/Documents/projetos/organiza_fotos/repetidos",
-    "diretorio_a_examinar_2": "/Users/pimentel/Documents/projetos/organiza_fotos/teste_2",
-    "diretorio_destino_novas": "/Users/pimentel/Documents/projetos/organiza_fotos/novas",
+    "diretorio_a_examinar_1": "E:\\fotos (até 2016 - antigo D)",
+    "diretorio_destino_repetidas": "C:\\Users\\jepim\\Desktop\\repetidas",
+    "arquivo_json": "fotos_do_e_ate_2016.json",
+    
+    "diretorio_a_examinar_2": "C:\\Users\\jepim\\Desktop\\teste",
+    "diretorio_destino_novas": "C:\\Users\\jepim\\Desktop\\teste\\novas",
+    
     "extensoes": [
-        "HEIC",
-        "heic",
-        "MOV",
-        "mov",
-        "JPG",
-        "jpg",
-        "JPEG",
-        "jpeg",
-        "PNG",
-        "png",
-        "MP4",
-        "mp4"
+        "HEIC", "heic",
+        "MOV",  "mov",
+        "JPG",  "jpg",
+        "JPEG", "jpeg",
+        "PNG",  "png",
+        "MP4",  "mp4", 
+        "AVI",  "avi",
+        "MPG",  "mpg",
+        "M4V",  "m4v",
+        "WMV",  "wmv"
     ],
+    
     "log_file": "processamento.log"
 }
